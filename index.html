@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/log.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="/assets/icon.png" alt="img">
+            </div>
+            <div class="home_logo">
+                <div class="icon">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="What do you want to play?">
+                    <div class="archive">
+                        <!-- <i class="fa-light fa-browser"></i> -->
+                        <i class="fa-solid fa-box-archive"></i>
+                         <!-- <img src="Screenshot 2024-09-05 154058.png" alt="brown img"> -->
+                         
+                    </div>
+                </div>
+            </div>
+            
+            <div class="signup">
+                <button class="up">Sign up</button>
+                <button class="log">Log in</button>
+            </div>
+            
+        </header>
+        <main>
+            <div class="sidebar">
+                <div class="library">
+                    <div class="ur">
+                        <img src="/assets/library_icon2.png" alt="library img">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="puls">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="creat">
+                    <div class="playlist">
+                        <span><b>Creat your first playlist</b></span>
+                        <p>It's easy, we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="podcast">
+                        <span><b>Let's find some podcasts to follow</b></span>
+                        <p>We'll keep you update on new episodes</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h6>Legal &nbsp;&nbsp;&nbsp; Safty & Privacy Center &nbsp;&nbsp;&nbsp; Privacy Policy</h6>
+                     <h6>Cookies &nbsp;&nbsp;&nbsp; About Ads &nbsp;&nbsp;&nbsp; Accessibility</h6>
+                     <h6>Cookies</h6>
+                     <button><span class="material-symbols-outlined">language</span>
+                            <span class="eng">English</span>
+                     </button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="partist">
+                    <h2>Popular artist</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="artist">
+                    <div class="bx">
+                        <img src="/assets/pritam.jpeg" alt="pritam img">
+                        <h5>Pritam</h5>
+                        <h6>Artist</h6>
+                    </div>
+                    <div class="bx">
+                        <img src="/assets/rehman.jpeg" alt="rehman">
+                        <h5>A.R Rehman</h5>
+                        <h6>Artist</h6>
+                    </div>
+                    <div class="bx">
+                        <img src="/assets/arjitsingh.jpg" alt="arjit img">
+                        <h5>Arjit Singh</h5>
+                        <h6>Artist</h6>
+                    </div>
+                    <div class="bx">
+                        <img src="/assets/sachin.jpeg" alt="arjit img">
+                        <h5>Sachin-Jigar</h5>
+                        <h6>Artist</h6>
+                    </div>
+                    <div class="bx">
+                        <img src="/assets/darshanraval.jpeg" alt="arjit img">
+                        <h5>Darshan Raval</h5>
+                        <h6>Artist</h6>
+                    </div>
+                    <div class="bx">
+                        <img src="/assets/arif.jpeg" alt="arjit img">
+                        <h5>Atif Aslam</h5>
+                        <h6>Artist</h6>
+                    </div>
+                    <div class="bx">
+                        <img src="/assets/sonu.jpeg" alt="arjit img">
+                        <h5>Sonu Nigum</h5>
+                        <h6>Artist</h6>
+                    </div>
+                </div>   
+                 <div class="palbum">
+                    <h2>Popular album</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="album">
+                    <div class="bxalbm">
+                        <img src="/assets/srolin.jpeg" alt="moose img">
+                        <h5>Still Rollin</h5>
+                        <h6>Shubh</h6>
+                    </div>
+                    <div class="bxalbm">
+                        <img src="/assets/moose.jpeg" alt="moose img">
+                        <h5>Moosetape</h5>
+                        <h6>Sidhu Moose Wala</h6>
+                    </div>
+                    <div class="bxalbm">
+                        <img src="/assets/sajin.jpeg" alt="moose img">
+                        <h5>Sajni(From"Laapat<br>aa Ladies")</h5>
+                        <h6>Sidhu Moose Wala</h6>
+                    </div>
+                    <div class="bxalbm">
+                        <img src="/assets/mahiya.jpeg" alt="moose img">
+                        <h5>Mahiye Jinna <br> Sohna</h5>
+                        <h6>darshan Raval</h6>
+                    </div>
+                    <div class="bxalbm">
+                        <img src="/assets/assa koda.jpeg" alt="moose img">
+                        <h5>Aasa Kooda (From <br> "Think Indie")</h5>
+                        <h6>Sai Abhyankkar,<br>Sai Smriti</h6>
+                    </div>
+                    <div class="bxalbm">
+                        <img src="/assets/jab we met.jpeg" alt="moose img">
+                        <h5>Jab We Met</h5>
+                        <h6>various Artist</h6>
+                    </div>
+                    <div class="bxalbm">
+                        <img src="/assets/badass.jpeg" alt="moose img">
+                        <h5>badass(From"Leo")</h5>
+                        <h6>Anirudh Ravichander</h6>
+                    </div>
+                </div>
+                <div class="pradio">
+                    <h2>Popular radio</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="radio">
+                    <div class="bxrdo">
+                        <img src="https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/4fEkbug6kZzzJ8eYX6Kbbp/en" alt="google img">
+                        <h5>With Mohit <br>Chauhan,Ankit...</h5>
+                    </div>
+                    <div class="bxrdo">
+                        <img src="https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/5rQoBDKFnd1n6BkdbgVaRL/en" alt="google img">
+                        <h5>With Harrdy Sandhu, <br>Jassie Gill,Jass M...</h5>
+                    </div>
+                    <div class="bxrdo">
+                        <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/51kyrUsAVqUBcoDEMFkX12/en" alt="google img">
+                        <h5>With .Feast, Lomba <br>Sihir, Nosstress...</h5>
+                    </div>
+                    <div class="bxrdo">
+                        <img src="https://seeded-session-images.scdn.co/v2/img/122/secondary/track/0vua5LbAth2HzKqpbnVRZk/en" alt="KK img">
+                        <h5>With A.R. Rahman, <br>Shankar Maha...</h5>
+                    </div>
+                    <div class="bxrdo">
+                        <img src="https://seeded-session-images.scdn.co/v2/img/122/secondary/track/4BiPsAV070dg3eLSVf727A/en" alt="KK img">
+                        <h5>With Pritam <br> Mithoon, Hime...</h5>
+                    </div>
+                    <div class="bxrdo">
+                        <img src="https://seeded-session-images.scdn.co/v2/img/122/secondary/track/4GWaSKW0JpQsqsGjiRbiEz/en" alt="KK img">
+                        <h5>With Sonu Nigam, <br>Shaan, Udit...</h5>
+                    </div>
+                    <div class="bxrdo">
+                        <img src="https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/6znPk9JRNmg6uyB6h8nJu3/en" alt="KK img">
+                        <h5>With Abdullah  <br>Qureshi, Mees...</h5>
+                    </div>
+                </div>
+                <div class="fcharts">
+                    <h2>Featured Charts</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="charts">
+                    <div class="bxchts">
+                        <img src="/assets/global song.jpeg" alt="global song img">
+                        <h5>Your weekly update<br>of the most play...</h5>
+                    </div>
+                    <div class="bxchts">
+                        <img src="/assets/topsongusa.webp" alt="global song img">
+                        <h5>Your weekly update<br>of the most play...</h5>
+                    </div>
+                    <div class="bxchts">
+                        <img src="/assets/global50.jpeg" alt="global song img">
+                        <h5>Your daily update of<br> the most played...</h5>
+                    </div>
+                    <div class="bxchts">
+                        <img src="/assets/usa.jpg" alt="global song img">
+                        <h5>Your daily update of<br>the most played...</h5>
+                    </div>
+                    <div class="bxchts">
+                        <img src="/assets/gobal.jpg" alt="global song img">
+                        <h5>Your daily update of<br>the most viral trac...</h5>
+                    </div>
+                    <div class="bxchts">
+                        <img src="/assets/usa50.jpg" alt="global song img">
+                        <h5>Your daily update of<br>the most viral trac...</h5>
+                    </div>
+                    <div class="bxchtslst">
+
+                    </div>
+                </div>
+                <div class="splaylst">
+                    <h2>Spotify Playlists</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="playlst">
+                    <div class="bxplaylst">
+                        <img src="/assets/lofi beats.jpeg" alt="lofi beats img">
+                        <h5>chill beats,lofi vibes,<br>new tracks every...</h5>
+                    </div>
+                    <div class="bxplaylst">
+                        <img src="/assets/chillout.jpeg" alt="chill out img">
+                        <h5>just learn back and<br>enjoy relaxed beats.</h5>
+                    </div>
+                    <div class="bxplaylst">
+                        <img src="/assets/partyhits.jpeg" alt="party hits img">
+                        <h5>A mix of the biggest<br> pop, dance, and...</h5>
+                    </div>
+                    <div class="bxplaylst">
+                        <img src="/assets/spotifyandchill.jpeg" alt="spotify chill img">
+                        <h5>Late night chilled<br> vibes, for those...</h5>
+                    </div>
+                    <div class="bxplaylst">
+                        <img src="/assets/R&B.webp" alt="lR&B img">
+                        <h5>Leaders of the new<br>school...</h5>
+                    </div>
+                    <div class="bxplaylst">
+                        <img src="/assets/rock classic.jpeg" alt="rock classics img">
+                        <h5>Rock legends & epic<br>songs that con...</h5>
+                    </div>
+                    <div class="bxplaylst">
+                        <img src="/assets/jazz in the background.jpeg" alt="jazz in the back.. img">
+                        <h5>Soft instrumental <br>Jazz for all...</h5>
+                    </div>
+                </div>
+                <div class="tepsod">
+                    <h2>Trending Episodes</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="epsod">
+                    <div class="bxepsod">
+                        <img src="/assets/rotten.png" alt="Rotten... img">
+                        <h5>#73:Hotel Of<br> Horrors(Serial ki...</h5>
+                        <h6><br>Jun 2021 . 93 min</h6>
+                    </div>
+                    <div class="bxepsod">
+                        <img src="/assets/rjbalaji.jpeg" alt="The Rj Balaji... img">
+                        <h5>Welcome back, Rj <br> Balaji-Naallana...</h5>
+                        <h6><br>Jun 2021 . 15 min</h6>
+                    </div>
+                    <div class="bxepsod">
+                        <img src="/assets/mahabharat.jpeg" alt="Mahabharat... img">
+                        <h5>Mahabharat <br> Episode 1..</h5>
+                        <h6><br>Apr 2014 . 24 min</h6>
+                    </div>
+                    <div class="bxepsod">
+                        <img src="/assets/ihearyou.jpeg" alt="i hear you... img">
+                        <h5>Anubis:God of <br> Death-part 1</h5>
+                        <h6><br>Jun 2021 . 13 min</h6>
+                    </div>
+                    <div class="bxepsod">
+                        <img src="/assets/ihearyou.jpeg" alt="i hear you... img">
+                        <h5>Anubis:God of <br> Death-part 2</h5>
+                        <h6><br>Jun 2021 . 16 min</h6>
+                    </div>
+                    <div class="bxepsod">
+                        <img src="/assets/ghalib1.jpg" alt="Ghalib 1... img">
+                        <h5>Ep 8-Ye Na Thi <br> Hamari Qismat</h5>
+                        <h6><br>Aug 2020 . 3 min</h6>
+                    </div>
+                    <div class="bxepsod">
+                        <img src="/assets/asthapovathu.jpg" alt="i hear you... img">
+                        <h5>Asatha Povathu  <br>Yaru | Madurai...</h5>
+                        <h6><br>May 2021 . 11 min</h6>
+                    </div>
+                </div>
+                <div class="end">
+                    <div class="bxend">
+                        <h5>Company</h5>
+                        <p>About</p>
+                        <p>Jobs</p>
+                        <p>For the Record</p>
+                    </div>
+                    <div class="bxend">
+                        <h5>Communities</h5>
+                        <p>For Artists</p>
+                        <p>Devlopers</p>
+                        <p>Advertising</p>
+                        <p>Investors</p>
+                        <p>Vendors</p>
+                    </div>
+                    <div class="bxend">
+                        <h5>useful links</h5>
+                        <p>Support</p>
+                        <p>Free Mobile App</p>
+                    </div>
+                    <div class="bxend">
+                        <h5>Spotify Plans</h5>
+                        <p>Premium Individual</p>
+                        <p>Premium Duo</p>
+                        <p>Premium Family</p>
+                        <p>Premium Student</p>
+                        <p>Spotify Free</p>
+                    </div>
+                    <div class="bxendlast">
+                        <div class="link">
+                            <a href="https://www.instagram.com/spotify?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="https://x.com/Spotify" target="_blank">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="https://www.facebook.com/SpotifyIndia?mibextid=JRoKGi" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="last">
+                    <i class="fa-regular fa-circle-check"></i>
+                    <!-- <img src="icons8-circled-c-48 (2).png" alt=""> -->
+                     <p>2024 Spotfy AB</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="left">
+                <p class="pos">Preview of Spotify</p>
+                <p class="sn">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <button class="right">Sign up for free</button>
+        </footer>
+    </div>
+</body>
+</html>
